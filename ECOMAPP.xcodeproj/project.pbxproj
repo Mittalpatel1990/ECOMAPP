@@ -12,9 +12,21 @@
 		B213272421DDC3DE0003124C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B213272221DDC3DE0003124C /* Main.storyboard */; };
 		B213272621DDC3E10003124C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B213272521DDC3E10003124C /* Assets.xcassets */; };
 		B213272921DDC3E10003124C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B213272721DDC3E10003124C /* LaunchScreen.storyboard */; };
+		B2172AE621DDDC000026BCE5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = B2172AE421DDDBFF0026BCE5 /* Database.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B2172AF421DE091E0026BCE5 /* categoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2172AF221DE091E0026BCE5 /* categoriesCell.swift */; };
+		B2172AF521DE091E0026BCE5 /* categoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2172AF321DE091E0026BCE5 /* categoriesCell.xib */; };
+		B2172AF721DE11990026BCE5 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2172AF621DE11990026BCE5 /* ProductsVC.swift */; };
+		B2172AF921DE219E0026BCE5 /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2172AF821DE219E0026BCE5 /* ProductDetailsVC.swift */; };
+		B2172AFC21DE33490026BCE5 /* sizecolorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2172AFA21DE33490026BCE5 /* sizecolorCell.swift */; };
+		B2172AFD21DE33490026BCE5 /* sizecolorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2172AFB21DE33490026BCE5 /* sizecolorCell.xib */; };
+		B2F7CC2B21DF5E0200EBA410 /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F7CC2A21DF5E0200EBA410 /* RankingCell.swift */; };
+		B2F7CC2D21DF634900EBA410 /* ECOM.db in Resources */ = {isa = PBXBuildFile; fileRef = B2F7CC2C21DF634900EBA410 /* ECOM.db */; };
+		BA5C77F32B4D63685C59F244 /* Pods_ECOMAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB51686F112DE1843CF5A60E /* Pods_ECOMAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B21AE11FBA8EBD263222BE6 /* Pods-ECOMAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOMAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECOMAPP/Pods-ECOMAPP.release.xcconfig"; sourceTree = "<group>"; };
+		A4A52076B098F096A89510A6 /* Pods-ECOMAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECOMAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ECOMAPP/Pods-ECOMAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		B213271B21DDC3DE0003124C /* ECOMAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECOMAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B213271E21DDC3DE0003124C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B213272021DDC3DE0003124C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,18 @@
 		B213272521DDC3E10003124C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B213272821DDC3E10003124C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B213272A21DDC3E10003124C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2172AE321DDDBFF0026BCE5 /* ECOMAPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECOMAPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2172AE421DDDBFF0026BCE5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = ECOMAPP/DBCLASS/Database.m; sourceTree = SOURCE_ROOT; };
+		B2172AE521DDDBFF0026BCE5 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = ECOMAPP/DBCLASS/Database.h; sourceTree = SOURCE_ROOT; };
+		B2172AF221DE091E0026BCE5 /* categoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesCell.swift; sourceTree = "<group>"; };
+		B2172AF321DE091E0026BCE5 /* categoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = categoriesCell.xib; sourceTree = "<group>"; };
+		B2172AF621DE11990026BCE5 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		B2172AF821DE219E0026BCE5 /* ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVC.swift; sourceTree = "<group>"; };
+		B2172AFA21DE33490026BCE5 /* sizecolorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizecolorCell.swift; sourceTree = "<group>"; };
+		B2172AFB21DE33490026BCE5 /* sizecolorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sizecolorCell.xib; sourceTree = "<group>"; };
+		B2F7CC2A21DF5E0200EBA410 /* RankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
+		B2F7CC2C21DF634900EBA410 /* ECOM.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ECOM.db; sourceTree = "<group>"; };
+		CB51686F112DE1843CF5A60E /* Pods_ECOMAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECOMAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5C77F32B4D63685C59F244 /* Pods_ECOMAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09603AE7F1D4A1BCA130A275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A52076B098F096A89510A6 /* Pods-ECOMAPP.debug.xcconfig */,
+				1B21AE11FBA8EBD263222BE6 /* Pods-ECOMAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BC5344F910DCF9E8C1611EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB51686F112DE1843CF5A60E /* Pods_ECOMAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B213271221DDC3DE0003124C = {
 			isa = PBXGroup;
 			children = (
 				B213271D21DDC3DE0003124C /* ECOMAPP */,
 				B213271C21DDC3DE0003124C /* Products */,
+				09603AE7F1D4A1BCA130A275 /* Pods */,
+				8BC5344F910DCF9E8C1611EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,50 @@
 		B213271D21DDC3DE0003124C /* ECOMAPP */ = {
 			isa = PBXGroup;
 			children = (
+				B2F7CC2921DF5DCD00EBA410 /* TableviewCell */,
+				B2172AED21DE06B90026BCE5 /* CollectionCell */,
+				B2172AE221DDDBDD0026BCE5 /* DBCLASS */,
 				B213271E21DDC3DE0003124C /* AppDelegate.swift */,
 				B213272021DDC3DE0003124C /* ViewController.swift */,
 				B213272221DDC3DE0003124C /* Main.storyboard */,
 				B213272521DDC3E10003124C /* Assets.xcassets */,
 				B213272721DDC3E10003124C /* LaunchScreen.storyboard */,
 				B213272A21DDC3E10003124C /* Info.plist */,
+				B2172AF621DE11990026BCE5 /* ProductsVC.swift */,
+				B2172AF821DE219E0026BCE5 /* ProductDetailsVC.swift */,
 			);
 			path = ECOMAPP;
+			sourceTree = "<group>";
+		};
+		B2172AE221DDDBDD0026BCE5 /* DBCLASS */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7CC2C21DF634900EBA410 /* ECOM.db */,
+				B2172AE521DDDBFF0026BCE5 /* Database.h */,
+				B2172AE421DDDBFF0026BCE5 /* Database.m */,
+				B2172AE321DDDBFF0026BCE5 /* ECOMAPP-Bridging-Header.h */,
+			);
+			name = DBCLASS;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B2172AED21DE06B90026BCE5 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				B2172AF221DE091E0026BCE5 /* categoriesCell.swift */,
+				B2172AF321DE091E0026BCE5 /* categoriesCell.xib */,
+				B2172AFA21DE33490026BCE5 /* sizecolorCell.swift */,
+				B2172AFB21DE33490026BCE5 /* sizecolorCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		B2F7CC2921DF5DCD00EBA410 /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B2F7CC2A21DF5E0200EBA410 /* RankingCell.swift */,
+			);
+			path = TableviewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B213272D21DDC3E10003124C /* Build configuration list for PBXNativeTarget "ECOMAPP" */;
 			buildPhases = (
+				58DEF19088777C245858B0FA /* [CP] Check Pods Manifest.lock */,
 				B213271721DDC3DE0003124C /* Sources */,
 				B213271821DDC3DE0003124C /* Frameworks */,
 				B213271921DDC3DE0003124C /* Resources */,
+				9BBBFB891E6F82134075E86F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +178,7 @@
 				TargetAttributes = {
 					B213271A21DDC3DE0003124C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,21 +205,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2172AFD21DE33490026BCE5 /* sizecolorCell.xib in Resources */,
 				B213272921DDC3E10003124C /* LaunchScreen.storyboard in Resources */,
 				B213272621DDC3E10003124C /* Assets.xcassets in Resources */,
+				B2F7CC2D21DF634900EBA410 /* ECOM.db in Resources */,
 				B213272421DDC3DE0003124C /* Main.storyboard in Resources */,
+				B2172AF521DE091E0026BCE5 /* categoriesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58DEF19088777C245858B0FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ECOMAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBBFB891E6F82134075E86F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ECOMAPP/Pods-ECOMAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ECOMAPP/Pods-ECOMAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B213271721DDC3DE0003124C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2172AF421DE091E0026BCE5 /* categoriesCell.swift in Sources */,
 				B213272121DDC3DE0003124C /* ViewController.swift in Sources */,
+				B2172AF721DE11990026BCE5 /* ProductsVC.swift in Sources */,
+				B2172AE621DDDC000026BCE5 /* Database.m in Sources */,
 				B213271F21DDC3DE0003124C /* AppDelegate.swift in Sources */,
+				B2172AFC21DE33490026BCE5 /* sizecolorCell.swift in Sources */,
+				B2F7CC2B21DF5E0200EBA410 /* RankingCell.swift in Sources */,
+				B2172AF921DE219E0026BCE5 /* ProductDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +411,10 @@
 		};
 		B213272E21DDC3E10003124C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A52076B098F096A89510A6 /* Pods-ECOMAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYJQ3RL39;
 				INFOPLIST_FILE = ECOMAPP/Info.plist;
@@ -291,15 +424,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eco.ECOMAPP.ECOMAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECOMAPP/New Group/ECOMAPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B213272F21DDC3E10003124C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B21AE11FBA8EBD263222BE6 /* Pods-ECOMAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYJQ3RL39;
 				INFOPLIST_FILE = ECOMAPP/Info.plist;
@@ -309,8 +446,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eco.ECOMAPP.ECOMAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECOMAPP/New Group/ECOMAPP-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

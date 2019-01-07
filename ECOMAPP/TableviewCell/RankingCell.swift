@@ -2,14 +2,14 @@
 //  RankingCell.swift
 //  ECOMAPP
 //
-//  Created by SJM TECHNOLOGY on 04/01/19.
-//  Copyright © 2019 SJM TECHNOLOGY. All rights reserved.
+//  Created by Apple on 04/01/19.
+//  Copyright © 2019 Apple. All rights reserved.
 //
 
 import UIKit
 
 class RankingCell: UITableViewCell {
-
+    @IBOutlet var lblName : UILabel?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
